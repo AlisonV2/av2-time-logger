@@ -1,0 +1,28 @@
+.primary-btn {
+  background-color: $primary;
+  border-radius: 0;
+  color: $light;
+  padding: 0.5rem 1.5rem;
+  transition: all 300ms ease-in-out;
+  &:hover {
+    background-color: $secondary;
+    color: $light;
+  }
+}
+
+.btn-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-center {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.dashboard-card {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  padding: 1rem;
+  min-height: 100%;
+}

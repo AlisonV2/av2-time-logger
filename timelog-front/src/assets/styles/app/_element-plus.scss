@@ -1,0 +1,51 @@
+.el-button--primary {
+  font-size: 16px !important;
+  padding: 1rem 1.5rem !important;
+  background-color: $primary !important;
+  border-color: $primary !important;
+  border-radius: 0 !important;
+  transition: all 0.3s ease-in-out !important;
+  font-family: $accent-font !important;
+  &:hover {
+    background-color: $secondary !important;
+    border-color: $secondary !important;
+  }
+}
+
+.el-button {
+  border-radius: 0 !important;
+  transition: all 0.3s ease-in-out !important;
+  &:hover {
+    border-color: $primary !important;
+    color: $default !important;
+    background-color: $light-bg !important;
+  }
+}
+
+.el-button--text {
+  &:hover {
+    background-color: transparent !important;
+    border-color: transparent !important;
+  }
+}
+
+.el-form-item {
+  &__label {
+    font-size: 18px !important;
+  }
+}
+
+.el-select .el-input__inner:focus,
+.el-input__inner:focus,
+.el-textarea__inner:focus,
+.el-select .el-input.is-focus .el-input__inner,
+.el-select .el-input.is-focus .el-input__inner:focus {
+  border-color: $primary !important;
+}
+
+.el-input-number__decrease:hover ~ .el-input:not(.is-disabled) .el-input__inner,
+.el-input-number__increase:hover
+  ~ .el-input:not(.is-disabled)
+  .el-input__inner {
+  border-color: $primary !important;
+}

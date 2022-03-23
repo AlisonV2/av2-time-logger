@@ -1,0 +1,7 @@
+/timelog-front/node_modules
+/timelog-front/dist
+/timelog-front/.env
+
+/timelog-back/node_modules
+/timelog-back/dist
+/timelog-back/.env
