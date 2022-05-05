@@ -65,7 +65,7 @@ export default {
     .navbar-brand {
       margin-right: 0 !important;
       .logo {
-        height: 80px;
+        height: 50px;
       }
     }
     .nav-menu {
